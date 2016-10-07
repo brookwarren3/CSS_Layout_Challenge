@@ -5,6 +5,7 @@
 body {
 	margin: 0;
 	padding: 80px;
+	min-width: 700px;
 }
 
 header {
@@ -63,13 +64,29 @@ a:hover {
 	display: block;
 }
 
+.search-form {
+	height: 30px;
+}
+
 .search-bar {
 	width: 400px;
 	height: 30px;
+	padding: 0;
+	border: 1px solid black;
+	vertical-align: middle;
+}
+
+.search-button {
+	padding: 0;
+	height: 30px;
+	vertical-align: middle;
+	border: 1px solid black;
+	overflow: hidden;
 }
 
 .magnifying-glass {
 	height: 30px;
+	margin-top: -4px;
 }
 
 .page-buttons {
