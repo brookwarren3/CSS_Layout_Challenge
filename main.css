@@ -13,8 +13,11 @@ header {
 	top: 0;
 	left: 0;
 	right: 0;
-	padding: 10px;
 	height: 50px;
+}
+
+nav {
+  height: 50px;
 }
 
 h1 {
@@ -23,20 +26,22 @@ h1 {
 }
 
 .title {
+  position: absolute;
 	display: inline-block;
-	margin-left: 10px;
+	left: 10px;
+  top: 6px;
+  margin: 0px;
 }
 
 .links {
 	position: absolute;
 	right: 10px;
-  	top: 10px;
-
+  top: 10px;
+  margin: 0px;
 }
 
 ul {
 	display: inline-block;
-
 }
 
 li {
